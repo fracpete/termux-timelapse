@@ -16,10 +16,9 @@ to take JPG images and then convert them into a `.mp4` movie using [ffmpeg](http
 
 ## Usage
 
-When executed, scrip will ask the user for:
+When executed, the `timelapse.sh` script will ask the user for:
 * **ID** of camera to obtain images from (`termux-camera-id`)
 * **Prefix** for the images/movie
 * The **number of images** to take
 * The **interval** between taking images (taking images takes 1-2 seconds)
 * The **frames-per-second (FPS)** to use for the movie
-
